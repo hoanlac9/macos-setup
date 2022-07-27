@@ -1,0 +1,31 @@
+---
+
+homebrew_cask_paths:
+  - /Library/Caches/Homebrew/Casks
+  - /opt/homebrew-cask
+
+apps:
+  - docker
+  - lens
+  - visual-studio-code
+  - remote-desktop-manager-free
+  - iterm2
+  - evkey
+  - 1password-cli
+  - 1password
+  - keka
+  - messenger
+  - microsoft-office
+  - monitorcontrol
+  - shottr
+  - skype
+  - slack
+  - spotify
+  - telegram-desktop
+  - via
+  - viber
+  - vlc
+  - whatsapp
+  - zalo
+  - zoom
+  - rectangle
