@@ -18,12 +18,12 @@ init:
 
 run: /usr/local/bin/brew
 	. .venv/bin/activate \
-		&& ansible-playbook --ask-become-pass --inventory hosts.ini main.yml
+		&& ansible-playbook --ask-become-pass --inventory hosts.ini main.yml --ask-become-pass   
 
 dotfiles:
 	. .venv/bin/activate \
-		&& ansible-playbook --inventory hosts.ini --tags dotfiles main.yml
+		&& ansible-playbook --inventory hosts.ini --tags dotfiles main.yml --ask-become-pass   
 
 work: /usr/local/bin/brew
 	. .venv/bin/activate \
-		&& ansible-playbook --ask-become-pass --inventory hosts.ini work.yml
+		&& ansible-playbook --ask-become-pass --inventory hosts.ini work.yml --ask-become-pass   
