@@ -32,3 +32,4 @@ apps:
   - hiddenbar
   - istat-menus
   - microsoft-edge
+  - cloudflare-warp
