@@ -26,4 +26,4 @@ dotfiles:
 
 work: /usr/local/bin/brew
 	. .venv/bin/activate \
-		&& ansible-playbook --ask-become-pass --inventory hosts.ini work.yml
+		&& ansible-playbook --ask-become-pass --inventory hosts.ini axon-packages.yml

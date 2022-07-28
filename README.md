@@ -14,5 +14,3 @@ Clone this repository and run the playbook:
 ```sh
 make
 ```
-
-ansible-playbook -i hosts.ini main.yml --ask-become-pass   
