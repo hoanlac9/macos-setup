@@ -5,18 +5,23 @@ homebrew_cask_paths:
   - /opt/homebrew-cask
 
 apps:
-  - docker
-  - lens
-  - visual-studio-code
-  - remote-desktop-manager-free
-  - iterm2
-  - evkey
-  - 1password-cli
   - 1password
+  - 1password-cli
+  - cloudflare-warp
+  - docker
+  - evkey
+  - hiddenbar
+  - istat-menus
+  - iterm2
   - keka
+  - lens
   - messenger
+  - microsoft-edge
   - microsoft-office
   - monitorcontrol
+  - notion
+  - rectangle
+  - remote-desktop-manager-free
   - shottr
   - skype
   - slack
@@ -24,12 +29,10 @@ apps:
   - telegram-desktop
   - via
   - viber
+  - visual-studio-code
   - vlc
   - whatsapp
   - zalo
   - zoom
-  - rectangle
-  - hiddenbar
-  - istat-menus
-  - microsoft-edge
-  - cloudflare-warp
+  - homebrew/cask-fonts/font-fira-code-nerd-font
+###MAC LIFE###

@@ -1,19 +1,31 @@
 
 apps:
+  - awscli
+  - azure-cli
+  - bash
+  - bat
   - cask
-  - python
+  - coreutils
   - fzf
+  - gh
+  - go
   - gpg
+  - grep
   - helm
+  - jq
   - kubectl
   - kubectx
   - kustomize
-  - azure-cli
-  - awscli
+  - m1-terraform-provider-helper
+  - moreutils
   - onedrive
+  - python
+  - ripgrep
   - terraform
   - tfenv
-  - m1-terraform-provider-helper
+  - translate-shell
+  - tree
+  - wget
   - zsh-autosuggestions
   - zsh-syntax-highlighting
 
