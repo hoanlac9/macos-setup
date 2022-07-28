@@ -27,5 +27,5 @@ dotfiles:
 	. .venv/bin/activate \
 		&& ansible-playbook --inventory hosts.ini --tags dotfiles main.yml   
 
-axon:
-		ansible-playbook --ask-become-pass --inventory hosts.ini axon-packages.yml
+work:
+		ansible-playbook --ask-become-pass --inventory hosts.ini work.yml
