@@ -20,6 +20,7 @@ apps:
   - microsoft-office
   - monitorcontrol
   - notion
+  - onedrive
   - rectangle
   - remote-desktop-manager-free
   - shottr
@@ -34,6 +35,5 @@ apps:
   - whatsapp
   - zalo
   - zoom
-  - homebrew/cask-fonts/font-fira-code-nerd-font
   
 ###MAC LIFE###

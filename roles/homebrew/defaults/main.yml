@@ -6,6 +6,7 @@ apps:
   - bat
   - cask
   - coreutils
+  - font-meslo-lg-nerd-font
   - fzf
   - gh
   - go
@@ -18,7 +19,6 @@ apps:
   - kustomize
   - m1-terraform-provider-helper
   - moreutils
-  - onedrive
   - python
   - ripgrep
   - terraform

@@ -1,11 +1,14 @@
----
+- name: Tap Homebrew cask-fonts
+  community.general.homebrew_tap:
+    name: homebrew/cask-fonts
+    state: present
+  become: no
+
 - name: Install applications
-  environment:
-    PATH: /usr/local/bin:{{ ansible_env["PATH"] }}
   homebrew:
-    name: '{{ apps }}'
+    name: '{{ item }}'
     state: latest
-  # with_items: '{{ apps }}'
+  with_items: '{{ apps }}'
   become: no
   # notify:
   # - restart dock

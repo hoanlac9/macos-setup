@@ -3,5 +3,5 @@
     # - role: khuedoan.workstation.dotfiles
     #   tags: dotfiles
     - role: homebrew
-    - role: homebrew-cask
+    # - role: homebrew-cask
     # - role: settings
