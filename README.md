@@ -11,8 +11,11 @@ Forks from https://github.com/khuedoan/macos-setup.git
 
 ## Usage
 
-Clone this repository and run the playbook:
+Clone this repository
 
+Uncomment ansible role in main.yml
+
+and Run the playbook
 ```sh
 make [function]
 ```
