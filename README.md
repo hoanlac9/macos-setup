@@ -1,5 +1,5 @@
 # Automated macOS workstation set up
-Author: https://github.com/khuedoan
+Source: https://github.com/khuedoan
 
 ## Features
 
