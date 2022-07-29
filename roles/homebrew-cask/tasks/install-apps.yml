@@ -2,6 +2,6 @@
 - name: Install Applications from Homebrew Cask
   homebrew_cask:
     name: '{{ item }}'
-    options: force
+    state: latest
   with_items: '{{ apps }}'
   become: no
