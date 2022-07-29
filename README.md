@@ -1,5 +1,6 @@
 # Automated macOS workstation set up
-Forks from https://github.com/khuedoan/macos-setup.git
+Author: https://github.com/khuedoan
+
 ## Features
 
 - Install Homebrew
