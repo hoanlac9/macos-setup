@@ -8,3 +8,10 @@
     name:
       - lastpass
       - viscosity
+
+- hosts: dev
+  tasks:
+    - name: M1 architecture isn't supported until version 1.0.1.  This is a workaround to run the amd64 version
+      shell: "echo $TFENV_ARCH"
+      environment:
+        TFENV_ARCH: amd64
