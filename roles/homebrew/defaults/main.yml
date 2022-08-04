@@ -25,6 +25,7 @@ apps:
   - ripgrep
   - terraform
   - tfenv
+  - tfswitch
   - translate-shell
   - tree
   - wget
